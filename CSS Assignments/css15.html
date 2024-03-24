@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and List Styling</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        li::before {
+            content: "• ";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Styled List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</body>
+</html>
